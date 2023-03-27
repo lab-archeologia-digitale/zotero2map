@@ -1,0 +1,21 @@
+{
+  "name": "zotero2map",
+  "version": "1.0.0",
+  "description": "Mappa Zotero",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bibliografia",
+    "Zotero",
+    "Mappa"
+  ],
+  "author": "E. Iacopini, J. Bogdani",
+  "license": "ISC",
+  "dependencies": {
+    "maplibre-gl": "^2.4.0",
+    "node-geocoder": "^4.2.0",
+    "zotero-api-client": "^0.40.1"
+  }
+}

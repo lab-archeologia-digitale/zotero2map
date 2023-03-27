@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --color-brand--1: #ffb545;
+        --color-brand--2: #00c46a;
+
+        --color-dark--1: #2d3439;
+        --color-dark--2: #42484d;
+        --color-light--1: #aaa;
+        --color-light--2: #ececec;
+        --color-light--3: rgb(214, 222, 224);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+
+      html {
+        font-size: 62.5%;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Manrope", sans-serif;
+        color: var(--color-light--2);
+        font-weight: 400;
+        line-height: 1.6;
+        height: 100vh;
+        overscroll-behavior-y: none;
+
+        background-color: #fff;
+        padding: 2.5rem;
+
+        display: flex;
+      }
+
+      /* GENERAL */
+      a:link,
+      a:visited {
+        color: var(--color-brand--1);
+      }
+
+      /* SIDEBAR */
+      .sidebar {
+        flex-basis: 50rem;
+        background-color: var(--color-dark--1);
+        padding: 3rem 5rem 4rem 5rem;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+      }
+
+      .logo {
+        height: 5.2rem;
+        align-self: center;
+        margin-bottom: 4rem;
+      }
+      .result {
+        color: #fff !important;
+      }
+
+      .form {
+        background-color: var(--color-dark--2);
+        border-radius: 5px;
+        padding: 1.5rem 2.75rem;
+        margin-bottom: 1.75rem;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem 2.5rem;
+
+        /* Match height and activity boxes */
+        height: 9.25rem;
+        transition: all 0.5s, transform 1ms;
+      }
+
+      .form.hidden {
+        transform: translateY(-30rem);
+        height: 0;
+        padding: 0 2.25rem;
+        margin-bottom: 0;
+        opacity: 0;
+      }
+
+      .form__row {
+        display: flex;
+        align-items: center;
+      }
+
+      .form__row--hidden {
+        display: none;
+      }
+
+      .form__label {
+        flex: 0 0 50%;
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+
+      .form__input {
+        width: 100%;
+        padding: 0.3rem 1.1rem;
+        font-family: inherit;
+        font-size: 1.4rem;
+        border: none;
+        border-radius: 3px;
+        background-color: var(--color-light--3);
+        transition: all 0.2s;
+      }
+
+      .form__input:focus {
+        outline: none;
+        background-color: #fff;
+      }
+
+      .form__btn {
+        display: none;
+      }
+
+      .copyright {
+        margin-top: auto;
+        font-size: 1.3rem;
+        text-align: center;
+        color: var(--color-light--1);
+      }
+
+      .twitter-link:link,
+      .twitter-link:visited {
+        color: var(--color-light--1);
+        transition: all 0.2s;
+      }
+
+      .twitter-link:hover,
+      .twitter-link:active {
+        color: var(--color-light--2);
+      }
+
+      /* MAP */
+      #map {
+        flex: 1;
+        height: 100%;
+        background-color: var(--color-light--1);
+      }
+
+      /* Popup width is defined in JS using options */
+      .leaflet-popup .leaflet-popup-content-wrapper {
+        background-color: var(--color-dark--1);
+        color: var(--color-light--2);
+        border-radius: 5px;
+        padding-right: 0.6rem;
+      }
+
+      .leaflet-popup .leaflet-popup-content {
+        font-size: 1.5rem;
+      }
+
+      .leaflet-popup .leaflet-popup-tip {
+        background-color: var(--color-dark--1);
+      }
+
+      .running-popup .leaflet-popup-content-wrapper {
+        border-left: 5px solid var(--color-brand--2);
+      }
+      .cycling-popup .leaflet-popup-content-wrapper {
+        border-left: 5px solid var(--color-brand--1);
+      }
+    </style>
+    <!-- Boostraps 5.3 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!--  Maplibre -->
+    <link
+      href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.css"
+      type="text/css"
+    />
+    <!-- Boostraps 5.3 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!--  Maplibre -->
+    <script src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
+    <!-- Load the `maplibre-gl-geocoder` plugin. -->
+    <script src="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.min.js"></script>
+
+    <title>ZOMAP</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="col-md-12 mb-5">
+        <img src="logo.png" alt="Logo" class="logo" />
+      </div>
+      <div class="col-md-12 mb-5"><b>RISULTATI DELLA RICERCA</b></div>
+      <div class="col-md-12 mb-5">
+        <table class="table result">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Autore</th>
+              <th scope="col">Titolo</th>
+              <th scope="col">Data</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Zarinebaf Fariba</td>
+              <td>
+                A historical and economic geography of Ottoma Greece. The
+                southern Morea in the 18th Century
+              </td>
+              <td>2005</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Bailey Donald M.</td>
+              <td>Lamps of metal and stone, and lampstands</td>
+              <td>1996</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Ugolini Luigi Maria</td>
+              <td>Albania Antiva Volume III. L'acropoli di Butrinto</td>
+              <td>1942</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-12 mb-5">
+        <p class="copyright">
+          &copy; Copyright by
+          <a href="#" target="_blank">LAD</a>
+        </p>
+      </div>
+    </div>
+    <div id="map"></div>
+  </body>
+  <script>
+    var map = new maplibregl.Map({
+      container: "map",
+      style: "https://demotiles.maplibre.org/style.json", // stylesheet location
+      center: [12.473681303732805, 41.91713343854614], // starting position [lng, lat]
+      zoom: 5, // starting zoom
+    });
+
+    // GEOLOCATION
+    var geocoder_api = {
+      forwardGeocode: async (config) => {
+        const features = [];
+        try {
+          let request =
+            "https://nominatim.openstreetmap.org/search?q=" +
+            config.query +
+            "&format=geojson&polygon_geojson=1&addressdetails=1";
+          const response = await fetch(request);
+          const geojson = await response.json();
+          for (let feature of geojson.features) {
+            let center = [
+              feature.bbox[0] + (feature.bbox[2] - feature.bbox[0]) / 2,
+              feature.bbox[1] + (feature.bbox[3] - feature.bbox[1]) / 2,
+            ];
+            let point = {
+              type: "Feature",
+              geometry: {
+                type: "Point",
+                coordinates: center,
+              },
+              place_name: feature.properties.display_name,
+              properties: feature.properties,
+              text: feature.properties.display_name,
+              place_type: ["place"],
+              center: center,
+            };
+            features.push(point);
+          }
+        } catch (e) {
+          console.error(`Failed to forwardGeocode with error: ${e}`);
+        }
+
+        return {
+          features: features,
+        };
+      },
+    };
+    map.addControl(
+      new MaplibreGeocoder(geocoder_api, {
+        maplibregl: maplibregl,
+      })
+    );
+
+    // CONTROLLER
+    map.addControl(new maplibregl.NavigationControl());
+  </script>
+</html>
