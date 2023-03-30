@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import getBiblio from "./getBiblio.mjs";
+import getBiblio from "../backend/getBiblio.mjs";
 
 const tutti_record_zotero = await getBiblio();
 

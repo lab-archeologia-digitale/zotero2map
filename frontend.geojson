@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [12.0, 14.0]
+    },
+    "properties": {
+      "name": "Chaonia",
+      "prefLabel": "Chaonia",
+      "altLabel": ["Kaonia", "Caonia"],
+      "biblio": [
+        {"id": "DNH4ZNN5", "short": "Bogdani 2022"},
+        {"id": "WVJCNA29", "short": "Lepore 2020"},
+        {"id": "B3NFGAGI", "short": "Giles 2003"},
+        {"id": "SLY7JPBE", "short": "Çondi 1977"}
+      ]
+    }
+    },
+    {
+      "type": "Epirus",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [102.0, 0.0],
+          [103.0, 1.0],
+          [104.0, 0.0],
+          [105.0, 1.0]
+        ]
+      },
+      "properties": {
+        "name": "Epirus",
+        "prefLabel": "Epirus",
+        "altLabel": [ "Epiro", "Epiri", "Epir" ],
+        "biblio": [
+          {"id": "DNH4ZNN5", "short": "Bogdani 2022"},
+          {"id": "WVJCNA29", "short": "Lepore 2020"},
+          {"id": "B3NFGAGI", "short": "Giles 2003"},
+          {"id": "SLY7JPBE", "short": "Çondi 1977"}
+        ]
+      }
+    }
+  ]
+}
