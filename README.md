@@ -7,7 +7,7 @@ A [LAD](https://lad.uniroma1.it) project to make a webGIS out of your [Zotero](z
 
 - [x] Creare un modulo `getBiblio.mjs` che prendere tutti (o alcuni) record da una gruppo Zotero
   - [ ] il modulo deve poter operare su più gruppi / librerie
-- [ ] Creare un modulo che carica l'ontologia (`ontology.json`) e analizza il risultato di `getBiblio`, crea e salva il (Geo)JSON finale utile al frontend
+- [x] Creare un modulo che carica l'ontologia (`ontology.json`) e analizza il risultato di `getBiblio`, crea e salva il (Geo)JSON finale utile al frontend
 
 
 ### Frontend
