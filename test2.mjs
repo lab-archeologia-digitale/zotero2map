@@ -1,26 +1,29 @@
 import getBiblio from "./backend/getBiblio.mjs";
 import fs from "fs";
+
 const ontologyPath = "./data/map.geojson";
 const ontology = JSON.parse(fs.readFileSync(ontologyPath));
-const elem = ontology.features;
 
-function returnVoc() {
-  const exVoc = {};
-  for (const item of elem) {
+/**
+ * 
+ * @param {Array} features: Array of ontology (GeoJSON) featurtes
+ * @returns {Object} Object containing (only) properties of each feature.
+ *                   The name property is used as index
+ *                    e.g.: { "Chaonia": {"name": "Chaonia", "altLabel": "Kaonia, Caonia", "broader": "Epirus"}
+ */
+function returnVoc(features) {
+  const ret = {};
+  for (const item of features) {
     let nome = item.properties.name;
-    exVoc[nome] = item.properties;
+    ret[nome] = item.properties;
   }
-  return exVoc;
+  return ret;
 }
-
-const voc = returnVoc();
-
-let biblio = await getBiblio();
 
 /**
  * Destruttura il tags item property e restituisce un array di tag
- * @param {object} biblio item della risposta della libreria Zotero
- * @param {object} voc voci dell'ontologia
+ * @param {Object} biblio item della risposta della libreria Zotero
+ * @param {Object} voc voci dell'ontologia
  */
 function parseBiblio2(biblio, voc) {
   const map = [];
@@ -33,12 +36,12 @@ function parseBiblio2(biblio, voc) {
 
 /**
  * Mappa gli item della bibliografia e confronta con l'ontologia
-  // Funzioni da eseguire in ordine
-  // Estrae i tag dagli item della biblio
-  // updateItemObjWithCoordinatesFromVocSkosBroader prova ad aggiungere le coordinate se il match è con broader
-  // updateItemObjWithMatchFromVocProperties se c'è corrispondenza con voc
- * @param {object} item item della risposta della libreria Zotero
- * @param {object} voc voci dell'ontologia
+ * Funzioni da eseguire in ordine:
+ * - Estrae i tag dagli item della biblio
+ * - updateItemObjWithCoordinatesFromVocSkosBroader prova ad aggiungere le coordinate se il match è con broader
+ * - updateItemObjWithMatchFromVocProperties se c'è corrispondenza con voc
+ * @param {Object} item item della risposta della libreria Zotero
+ * @param {Object} voc voci dell'ontologia
  */
 function mapItemByVoc(item, voc) {
   const tags = extractTags(item);
@@ -48,11 +51,12 @@ function mapItemByVoc(item, voc) {
 
 /**
  * Estrae i tag dalla biblio
- * @param {object} item  item della risposta della libreria Zotero
+ * @param {Object} item  item della risposta della libreria Zotero
  */
 function extractTags(item) {
   return item?.tags.length ? [...item.tags.map((obj) => obj.tag)] : []; // [{tag: 'pippo' }] -> ['pippo']
 }
+
 
 /**
  * Aggiorna gli item di Zotero in base alla risposta
@@ -96,8 +100,6 @@ function updateItemObjWithCoordinatesFromVocSkosBroader(item, voc, tags) {
   }
 }
 
-const zoteroBiblioMappedWithVoc = parseBiblio2(biblio, voc);
-
 /**
  * Raggruppa i libri per matched tag
  */
@@ -136,17 +138,6 @@ function createFeaturesFromMappedLibraryItems(zoteroBiblioMappedWithVoc) {
   return Object.values(accumulator);
 }
 
-const features = createFeaturesFromMappedLibraryItems(
-  zoteroBiblioMappedWithVoc
-);
-
-const geo = {
-  type: "FeatureCollection",
-  features,
-};
-
-const geoFeatures = geo.features;
-
 function returnGeo() {
   const featuresGeo = {};
   for (const item of geoFeatures) {
@@ -156,7 +147,6 @@ function returnGeo() {
   return featuresGeo;
 }
 
-const feature = returnGeo();
 
 function returnFinalGeojson(feature, elem) {
   Object.values(elem).map((o) => {
@@ -169,8 +159,29 @@ function returnFinalGeojson(feature, elem) {
   });
 }
 
+
+
+
+const voc = returnVoc(ontology.features);
+
+let biblio = await getBiblio();
+
+const zoteroBiblioMappedWithVoc = parseBiblio2(biblio, voc);
+
+const features = createFeaturesFromMappedLibraryItems(zoteroBiblioMappedWithVoc);
+
+const geo = {
+  type: "FeatureCollection",
+  features,
+};
+
+const geoFeatures = geo.features;
+
+const feature = returnGeo();
+
+
 console.log(newMap);
-const geoJson = returnFinalGeojson(feature, elem);
+const geoJson = returnFinalGeojson(feature, ontology.features);
 
 fs.writeFileSync("./zotero2.geojson", JSON.stringify(geoJson, null, 2), {
   encoding: "utf-8",
