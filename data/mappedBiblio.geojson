@@ -11,35 +11,8 @@
         "biblio": [
           {
             "key": "WVJCNA29",
-            "shortTitle": "",
             "title": "Distruzione e reimpiego delle tombe: episodi militari, atti politici o pratica magica?",
-            "creators": [
-              {
-                "creatorType": "author",
-                "firstName": "Giuseppe",
-                "lastName": "Lepore"
-              },
-              {
-                "creatorType": "editor",
-                "firstName": "Martina",
-                "lastName": "Cipriani"
-              },
-              {
-                "creatorType": "editor",
-                "firstName": "Emanuele",
-                "lastName": "Greco"
-              },
-              {
-                "creatorType": "editor",
-                "firstName": "Anna",
-                "lastName": "Salzano"
-              },
-              {
-                "creatorType": "editor",
-                "firstName": "Calogero Ivan",
-                "lastName": "Tornese"
-              }
-            ]
+            "author_date": "Lepore. 2020"
           }
         ]
       },
@@ -208,15 +181,8 @@
         "biblio": [
           {
             "key": "2NVIP5FB",
-            "shortTitle": "",
             "title": "Gjetje rasti: rrethi i Sarandës",
-            "creators": [
-              {
-                "creatorType": "author",
-                "firstName": "Dhimosten",
-                "lastName": "Budina"
-              }
-            ]
+            "author_date": "Budina. 1974"
           }
         ]
       },
@@ -239,25 +205,8 @@
         "biblio": [
           {
             "key": "SI837ECT",
-            "shortTitle": "",
             "title": "The Walled Towns of Thesprotia: from the Hellenistic Foundation to the Roman Destruction",
-            "creators": [
-              {
-                "creatorType": "author",
-                "firstName": "Marco",
-                "lastName": "Moderato"
-              },
-              {
-                "creatorType": "editor",
-                "firstName": "Pietro Maria",
-                "lastName": "Militello"
-              },
-              {
-                "creatorType": "editor",
-                "firstName": "Hakan",
-                "lastName": "Öniz"
-              }
-            ]
+            "author_date": "Moderato. 2015"
           }
         ]
       },
@@ -327,15 +276,8 @@
         "biblio": [
           {
             "key": "JYZR7SEQ",
-            "shortTitle": "",
             "title": "L’Epiro dei Molossi. Difesa e gestione del territorio",
-            "creators": [
-              {
-                "creatorType": "author",
-                "firstName": "Gian Michele",
-                "lastName": "Gerogiannis"
-              }
-            ]
+            "author_date": "Gerogiannis. 2021"
           }
         ]
       },
@@ -408,15 +350,8 @@
         "biblio": [
           {
             "key": "NDNIJIGD",
-            "shortTitle": "",
             "title": "Albania Antica. Volume II. L'acropoli di Fenice",
-            "creators": [
-              {
-                "creatorType": "author",
-                "firstName": "Luigi Maria",
-                "lastName": "Ugolini"
-              }
-            ]
+            "author_date": "Ugolini. 1932"
           }
         ]
       },

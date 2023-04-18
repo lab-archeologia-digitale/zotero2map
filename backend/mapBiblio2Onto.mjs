@@ -41,19 +41,10 @@ function parseBiblio(biblio, voc) {
  * @param {Object} voc voci dell'ontologia
  */
 function mapItemByVoc(item, voc) {
-  const tags = extractTags(item);
+  const tags = item?.tags.length ? [...item.tags.map((obj) => obj.tag)] : [];
   updateItemObjWithMatchFromVocProperties(item, voc, tags);
   updateItemObjWithCoordinatesFromVocSkosBroader(item, voc, tags);
 }
-
-/**
- * Estrae i tag dalla biblio
- * @param {Object} item  item della risposta della libreria Zotero
- */
-function extractTags(item) {
-  return item?.tags.length ? [...item.tags.map((obj) => obj.tag)] : []; // [{tag: 'pippo' }] -> ['pippo']
-}
-
 
 /**
  * Aggiorna gli item di Zotero in base alla risposta
@@ -64,7 +55,7 @@ function extractTags(item) {
  * @returns {void}
  */
 function updateItemObjWithMatchFromVocProperties(item, voc, tags = []) {
-  if (!Array.isArray(tags)) throw new Error("is required tags array og string");
+  if (!Array.isArray(tags)) throw new Error("is required tags array or string");
   const vocTags = Object.keys(voc);
   if (!item.match) item.match = [];
   for (const tag of tags) {
@@ -105,21 +96,25 @@ function updateItemObjWithCoordinatesFromVocSkosBroader(item, voc, tags) {
  */
 function mapBibliography(zoteroBiblioMappedWithVoc, ontology) {
   
-  for (const book of zoteroBiblioMappedWithVoc) {
-    if (book?.match.length) {
-      const { key, shortTitle, title, creators } = book;
+  for (const zoteroItem of zoteroBiblioMappedWithVoc) {
+    if (zoteroItem?.match.length) {
 
-      book.match.forEach(m => {
+      zoteroItem.match.forEach(m => {
         ontology.features.forEach(mapEl => {
           if (mapEl.properties.name === m.name){
             if (!mapEl.hasOwnProperty('biblio')){
               mapEl.properties.biblio = [];
             }
             mapEl.properties.biblio.push({
-              key: key,
-              shortTitle: shortTitle,
-              title: title,
-              creators: creators
+              key: zoteroItem.key,
+              title: zoteroItem.title,
+              author_date:zoteroItem.creators.map(e => {
+                if(e.creatorType === "author"){
+                  return e.lastName;
+                } else {
+                  return false;
+                }
+              }).filter(e => e).join(", ") + '. ' + zoteroItem.date
             })
           }
         });
