@@ -1,18 +1,40 @@
 {
   "name": "zotero2map",
   "version": "1.0.0",
-  "description": "Mappa Zotero",
+  "description": "A web map interface to a Zotero library",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "backend": "node backend/backend.mjs"
   },
   "keywords": [
-    "Bibliografia",
+    "bibliography",
     "Zotero",
-    "Mappa"
+    "GIS",
+    "webGIS",
+    "map"
   ],
-  "author": "E. Iacopini, J. Bogdani",
+  "homepage": "https://github.com/lab-archeologia-digitale/zotero2map#readme",
+  "bugs": {
+    "url": "https://github.com/lab-archeologia-digitale/zotero2map/issues",
+    "email": "julian.bogdani@uniroma1.it"
+  },
+  "author": {
+    "name": "Eleonora Iacopini",
+    "email": "eleonora.iacopini@uniroma1.it",
+    "url": "https://lad.saras.uniroma1.it"
+  },
+  "contributors": [
+    {
+      "name": "Julian Bogdani",
+      "email": "julian.bogdani@uniroma1.it",
+      "url": "https://lad.saras.uniroma1.it"
+    }
+  ],
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lab-archeologia-digitale/zotero2map"
+  },
   "dependencies": {
     "maplibre-gl": "^2.4.0",
     "node-geocoder": "^4.2.0",
