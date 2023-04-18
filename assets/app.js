@@ -55,34 +55,11 @@ map.addControl(new maplibregl.NavigationControl());
 
 //Add multiple geometries from one GeoJSON source
 
-map.on("load", () => {
-  map.addSource("earthquakes", {
-    type: "geojson",
-    // Use a URL for the value for the `data` property.
-    data: "https://docs.mapbox.com/mapbox-gl-js/assets/earthquakes.geojson",
-  });
-
-  map.addLayer({
-    id: "earthquakes-layer",
-    type: "circle",
-    source: "earthquakes",
-    paint: {
-      "circle-radius": 4,
-      "circle-stroke-width": 2,
-      "circle-color": "red",
-      "circle-stroke-color": "white",
-    },
-  });
-});
-
-const mappedBook = "./data/mappedBiblio.geojson";
-let geoJSONcontent = JSON.parse(mappedBook);
-
 map.on("load", function () {
   map.addSource("Zoterobook", {
     type: "geojson",
     // Use a URL for the value for the `data` property.
-    data: geoJSONcontent,
+    data: "../data/mappedBiblio.geojson",
   });
 
   map.addLayer({
