@@ -102,7 +102,7 @@ function mapBibliography(zoteroBiblioMappedWithVoc, ontology) {
       zoteroItem.match.forEach(m => {
         ontology.features.forEach(mapEl => {
           if (mapEl.properties.name === m.name){
-            if (!mapEl.hasOwnProperty('biblio')){
+            if (!mapEl.properties.hasOwnProperty('biblio')){
               mapEl.properties.biblio = [];
             }
             mapEl.properties.biblio.push({
@@ -127,8 +127,8 @@ function mapBibliography(zoteroBiblioMappedWithVoc, ontology) {
 
 const mapBiblio2Onto = (bibliography, ontology) => {
   const voc = returnVoc(ontology.features);
-
-  const zoteroBiblioMappedWithVoc = parseBiblio(bibliography, voc);
+  
+  const zoteroBiblioMappedWithVoc = parseBiblio(bibliography, voc).filter(e => e.match.length > 0);
 
   return mapBibliography(zoteroBiblioMappedWithVoc, ontology);
 };
