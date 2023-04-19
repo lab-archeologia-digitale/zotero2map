@@ -89,45 +89,11 @@ function updateItemObjWithCoordinatesFromVocSkosBroader(item, voc, tags) {
 }
 
 /**
- * Raggruppa tutti i libri per matched tag e crea un file GeoJESON
+ * Crea un oggetto che raggruppa in un array biblio tutti i libri che hanno lo stesso matchedTag
  * @param {Object} zoteroBiblioMappedWithVoc Bibliografia con proprietà match
  * @param {Object} ontology: Ontologia originale (GeoJSON)
- * @returns {Array}: L'ontologia originale con, per ogni elemento, proprietà biblio, array con bibliografia
+ * @returns {Object}: Un oggetto nel quale sono raggruppati i libri per match
  */
-// function mapBibliography(zoteroBiblioMappedWithVoc, ontology) {
-//   for (const zoteroItem of zoteroBiblioMappedWithVoc) {
-//     if (zoteroItem?.match.length) {
-//       zoteroItem.match.forEach((m) => {
-//         ontology.features.forEach((mapEl) => {
-//           if (mapEl.properties.name === m.name) {
-//             if (!mapEl.hasOwnProperty("biblio")) {
-//               mapEl.properties.biblio = [];
-//             }
-//             mapEl.properties.biblio.push({
-//               key: zoteroItem.key,
-//               title: zoteroItem.title,
-//               author_date:
-//                 zoteroItem.creators
-//                   .map((e) => {
-//                     if (e.creatorType === "author") {
-//                       return e.lastName;
-//                     } else {
-//                       return false;
-//                     }
-//                   })
-//                   .filter((e) => e)
-//                   .join(", ") +
-//                 ". " +
-//                 zoteroItem.date,
-//             });
-//           }
-//         });
-//       });
-//     }
-//   }
-
-//   return ontology;
-// }
 
 function accumulatore(zoteroBiblioMappedWithVoc) {
   const accumulator = {};
@@ -150,6 +116,13 @@ function accumulatore(zoteroBiblioMappedWithVoc) {
   }
   return Object.values(accumulator);
 }
+
+/**
+ * Raggruppa in un array biblio tutti i libri che hanno lo stesso matchedTag
+ *  @param {Object} ontology: Ontologia originale (GeoJSON)
+ *  @param {Object} biblioAggregata: oggetto che raggruppa in un array biblio tutti i libri che hanno lo stesso matchedTag
+ * @returns {Array}: L'ontologia originale con, per ogni elemento, proprietà biblio, array con bibliografia
+ */
 
 function mapBibliography(biblioAggregata, ontology) {
   ontology.features.map((o) => {
