@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" type="image/png" href="/icon.png" />
-
+    <!-- Font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- Style generale -->
     <link href="./assets/style.css" rel="stylesheet" />
 
     <!-- Boostraps 5.3 -->
@@ -24,10 +25,10 @@
       href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css"
       rel="stylesheet"
     />
+    <!--  Maplibre Search -->
     <link
+      href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css"
       rel="stylesheet"
-      href="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.css"
-      type="text/css"
     />
     <!-- Boostraps 5.3 -->
     <script
@@ -35,62 +36,38 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <!--  Maplibre -->
+    <!--  Maplibre  -->
     <script src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
-    <!-- Load the `maplibre-gl-geocoder` plugin. -->
-    <script src="https://unpkg.com/@maplibre/maplibre-gl-geocoder@1.2.0/dist/maplibre-gl-geocoder.min.js"></script>
+
+    <!--  Maplibre Search -->
+    <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
+
+    <!--  Font Awesom -->
+    <script
+      src="https://kit.fontawesome.com/d501fa6abb.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>ZOMAP</title>
   </head>
   <body>
-    <div class="sidebar">
-      <div class="col-md-12 mb-5">
-        <img src="./assets/logo.png" alt="Logo" class="logo" />
-      </div>
-      <div class="col-md-12 mb-5"><b>RISULTATI DELLA RICERCA</b></div>
-      <div class="col-md-12 mb-5">
-        <table class="table result">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Autore</th>
-              <th scope="col">Titolo</th>
-              <th scope="col">Data</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Zarinebaf Fariba</td>
-              <td>
-                A historical and economic geography of Ottoma Greece. The
-                southern Morea in the 18th Century
-              </td>
-              <td>2005</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Bailey Donald M.</td>
-              <td>Lamps of metal and stone, and lampstands</td>
-              <td>1996</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Ugolini Luigi Maria</td>
-              <td>Albania Antiva Volume III. L'acropoli di Butrinto</td>
-              <td>1942</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="col-md-12 mb-5">
-        <p class="copyright">
-          &copy; Copyright by
-          <a href="#" target="_blank">LAD</a>
-        </p>
-      </div>
-    </div>
     <div id="map"></div>
+
+    <div class="map-overlay">
+      <div class="col-md-12 mb-5">
+        <br />
+        <img src="./assets/logo.png" width="50" alt="Zotero Map" class="logo" />
+        <b style="color: #fff">ZOTERO MAP</b>
+      </div>
+      <fieldset>
+        <input
+          id="feature-filter"
+          type="text"
+          placeholder="Filter results by name"
+        />
+      </fieldset>
+      <div id="feature-listing" class="listing"></div>
+    </div>
   </body>
   <script src="assets/app.js"></script>
 </html>
