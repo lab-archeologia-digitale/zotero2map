@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 :root {
   --color-brand--1: #ffb545;
   --color-brand--2: #00c46a;
@@ -83,8 +85,6 @@ body {
   background: #f0f0f0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-
 body {
   font-family: "Inter", sans-serif;
   line-height: 1.7;
@@ -108,34 +108,44 @@ h1 {
   display: none;
 }
 
-.pagination-container {
-  width: calc(100% - 2rem);
-  display: flex;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  padding: 1rem 0;
-  justify-content: center;
-}
-
-.pagination-number,
-.pagination-button {
-  font-size: 1.1rem;
-  background-color: transparent;
-  border: none;
-  margin: 0.25rem 0.25rem;
-  cursor: pointer;
-  height: 2.5rem;
-  width: 2.5rem;
-  border-radius: 0.2rem;
-}
-
-.pagination-number:hover,
-.pagination-button:not(.disabled):hover {
+#menu {
   background: #fff;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 10px;
+  border-radius: 3px;
+  width: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  font-family: "Open Sans", sans-serif;
 }
 
-.pagination-number.active {
-  color: #fff;
-  background: #0085b6;
+#menu a {
+  font-size: 13px;
+  color: #404040;
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+#menu a:last-child {
+  border: none;
+}
+
+#menu a:hover {
+  background-color: #f8f8f8;
+  color: #404040;
+}
+
+#menu a.active {
+  background-color: #3887be;
+  color: #ffffff;
+}
+
+#menu a.active:hover {
+  background: #3074a4;
 }
