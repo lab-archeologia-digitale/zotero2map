@@ -14,7 +14,7 @@ map.on("load", function () {
   map.addSource("Zoterobook", {
     type: "geojson",
     // Use a URL for the value for the `data` property.
-    data: "../data/mappedBiblio.geojson",
+    data: "./data/mappedBiblio.geojson",
   });
 
   //ADD MULTIPLE GEOMETRIES FROM ONE GEOJSON SOURCE
