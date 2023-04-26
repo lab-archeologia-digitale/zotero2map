@@ -1,7 +1,9 @@
+import * as dotenv from 'dotenv';
+dotenv.config();
 import zotero_client from 'zotero-api-client';
 const api = zotero_client['default'];
 
-const groupId = 336647;
+const groupId = process.env.ZOTERO_GRP;
 
 const validItemTypes = [
   'book',

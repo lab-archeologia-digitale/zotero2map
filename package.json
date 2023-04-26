@@ -36,6 +36,7 @@
     "url": "https://github.com/lab-archeologia-digitale/zotero2map"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "maplibre-gl": "^2.4.0",
     "node-geocoder": "^4.2.0",
     "zotero-api-client": "^0.40.1"
