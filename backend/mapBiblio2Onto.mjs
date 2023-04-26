@@ -43,7 +43,7 @@ function parseBiblio(biblio, voc) {
 function mapItemByVoc(item, voc) {
   const tags = item?.tags.length ? [...item.tags.map((obj) => obj.tag)] : [];
   updateItemObjWithMatchFromVocProperties(item, voc, tags);
-  updateItemObjWithCoordinatesFromVocSkosBroader(item, voc, tags);
+  //updateItemObjWithCoordinatesFromVocSkosBroader(item, voc, tags);
 }
 
 /**
@@ -60,7 +60,7 @@ function updateItemObjWithMatchFromVocProperties(item, voc, tags = []) {
   if (!item.match) item.match = [];
   for (const tag of tags) {
     if (vocTags.includes(tag)) {
-      voc[tag]._id = tag;
+      // voc[tag]._id = tag;
       item.match.push(voc[tag]);
     }
   }
@@ -72,6 +72,7 @@ function updateItemObjWithMatchFromVocProperties(item, voc, tags = []) {
  * @param {object} item item della risposta della libreria Zotero
  * @param {object} voc voci dell'ontologia
  * @param {Array.<string>} tags tags degli item di Zotero
+ * @deprecated since 2023-04-19
  */
 function updateItemObjWithCoordinatesFromVocSkosBroader(item, voc, tags) {
   if (!Array.isArray(tags))
