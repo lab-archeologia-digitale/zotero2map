@@ -8,6 +8,6 @@ const ontology = JSON.parse(fs.readFileSync(ontologyPath));
 
 const bibliography = await getBiblio();
 
-const test = mapBiblio2Onto(bibliography, ontology);
+const mappedBiblio = mapBiblio2Onto(bibliography, ontology);
 
-fs.writeFileSync("data/mappedBiblio.geojson", JSON.stringify(test, null, 2));
+fs.writeFileSync("data/mappedBiblio.geojson", JSON.stringify(mappedBiblio, null, 2));

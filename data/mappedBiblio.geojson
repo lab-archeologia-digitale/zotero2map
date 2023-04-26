@@ -7,7 +7,6 @@
         "name": "Chaonia",
         "altLabel": "Kaonia, Caonia",
         "broader": "Epirus",
-        "_id": "Chaonia",
         "biblio": [
           {
             "key": "SLY7JPBE",
@@ -192,7 +191,6 @@
         "name": "Çuka e Ajtoit",
         "altLabel": "Cestria, Monte Aetòs, Monte Aetos",
         "broader": "Cestrine",
-        "_id": "Çuka e Ajtoit",
         "biblio": [
           {
             "key": "QJAPZRRM",
@@ -231,7 +229,6 @@
         "name": "Thesprotia",
         "altLabel": "Tesprozia",
         "broader": "Epirus",
-        "_id": "Thesprotia",
         "biblio": [
           {
             "key": "9RWVIRSW",
@@ -322,7 +319,6 @@
         "name": "Molossia",
         "altLabel": "Molosia",
         "broader": "Epirus",
-        "_id": "Molossia",
         "biblio": [
           {
             "key": "JYZR7SEQ",
@@ -396,7 +392,6 @@
       "properties": {
         "name": "Epirus",
         "altLabel": "Epir, Epiri, Epiro",
-        "_id": "Epirus",
         "biblio": [
           {
             "key": "9RWVIRSW",
