@@ -6,10 +6,8 @@ import mapBiblio2Onto from "./mapBiblio2Onto.mjs";
 const ontologyPath = "./data/map.geojson";
 const ontology = JSON.parse(fs.readFileSync(ontologyPath));
 
-let bibliography = await getBiblio();
+const bibliography = await getBiblio();
 
 const test = mapBiblio2Onto(bibliography, ontology);
-// const test2 = mapBiblio2Onto2(bibliography, ontology);
 
 fs.writeFileSync("data/mappedBiblio.geojson", JSON.stringify(test, null, 2));
-// fs.writeFileSync("data/test.geojson", JSON.stringify(test2, null, 2));
