@@ -157,7 +157,7 @@ map.on("mouseleave", "bookPoint", () => {
   map.getCanvas().style.cursor = "";
 });
 
-const filterEl = document.getElementById("feature-filter");
+// const filterEl = document.getElementById("feature-filter");
 const listingEl = document.getElementById("feature-listing");
 
 // EVENTI SUL CLICK DELL'ELEMENTO
@@ -194,6 +194,6 @@ map.on("click", function (e) {
       listingEl.appendChild(itemLink);
     }
     // Show the filter input
-    filterEl.parentNode.style.display = "block";
+    // filterEl.parentNode.style.display = "block";
   }
 });
