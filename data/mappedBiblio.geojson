@@ -10,6 +10,16 @@
         "broader": "Epirus",
         "biblio": [
           {
+            "key": "P9MIGHA5",
+            "title": "Gjurmim i mëtejshëm i fortesës së Malathresë",
+            "author_date": "Çondi. 1982"
+          },
+          {
+            "key": "VZB9YY6V",
+            "title": "Fortesa — vilë e Malathresë",
+            "author_date": "Çondi. 1984"
+          },
+          {
             "key": "WVJCNA29",
             "title": "Distruzione e reimpiego delle tombe: episodi militari, atti politici o pratica magica?",
             "author_date": "Lepore. 2020"
@@ -117,7 +127,99 @@
       "properties": {
         "name": "Cestrine",
         "altLabel": "Kestrine",
-        "broader": "Chaonia, Thesprotia"
+        "broader": "Chaonia, Thesprotia",
+        "biblio": [
+          {
+            "key": "P9MIGHA5",
+            "title": "Gjurmim i mëtejshëm i fortesës së Malathresë",
+            "author_date": "Çondi. 1982"
+          },
+          {
+            "key": "VZB9YY6V",
+            "title": "Fortesa — vilë e Malathresë",
+            "author_date": "Çondi. 1984"
+          },
+          {
+            "key": "MY5BXU6W",
+            "title": "Documentare l'invisibile. Il progetto Çuka e Ajtoit: rilievo e documentazione di un sito d'altura",
+            "author_date": "Bogdani. c.d.s."
+          },
+          {
+            "key": "Z5NDA7RT",
+            "title": "Landscapes of water and landscapes of power: hydraulic politics in Butrint (Albania) between Venetians and Ottomans",
+            "author_date": "Carvajal López. 2019-05-04"
+          },
+          {
+            "key": "5HYHG84B",
+            "title": "Çuka e Aitoit: The 1979 Survey and Excavations",
+            "author_date": "Islami. 2020"
+          },
+          {
+            "key": "RD6UGS84",
+            "title": "Monte Aetos: Necropoli",
+            "author_date": "Ugolini. "
+          },
+          {
+            "key": "N3EZBPZ9",
+            "title": "The environs of Butrint, Kalivo and Çuka e Aitoit, Albania",
+            "author_date": "Ugolini, Ugolini, Crowson, Hodges. 2004"
+          },
+          {
+            "key": "T8XQ4GQP",
+            "title": "I reperti da Monte Aetòs / The finds from Çuka e Aitoit",
+            "author_date": "Ugolini, Francis, Gilkes, Muka. 2005"
+          },
+          {
+            "key": "5XRY9MN2",
+            "title": "Monte Aetòs (Çuka e Aitoit): Necropoli",
+            "author_date": "Ugolini. 2020"
+          },
+          {
+            "key": "QJAPZRRM",
+            "title": "I reperti da Monte Aetòs - The finds from Çuka e Aitoit",
+            "author_date": "Ugolini, Francis, Gilkes, Hernandez, Muka. 2020"
+          },
+          {
+            "key": "SLY7JPBE",
+            "title": "Gjetje arkeologjike nga rrethi i Sarandës / Trouvailles archéologiques de la région de Saranda",
+            "author_date": "Çondi. 1977-1978"
+          },
+          {
+            "key": "DJ8XIRUS",
+            "title": "Kërkime të reja Shqiptaro-Italiane në Çukën e Ajtoit",
+            "author_date": "Bogdani, Meta. c.d.s."
+          },
+          {
+            "key": "2NVIP5FB",
+            "title": "Gjetje rasti: rrethi i Sarandës",
+            "author_date": "Budina. 1974"
+          },
+          {
+            "key": "DNH4ZNN5",
+            "title": "ΚΕΣΤΡΙΑ ΤHΣ ΧΑΟΝIΑΣ: appunti sulla geografia e storia di una regione di frontiera",
+            "author_date": "Bogdani. 2022"
+          },
+          {
+            "key": "USJUUA2J",
+            "title": "A propos des Kammanoi",
+            "author_date": "Cabanes. 1987"
+          },
+          {
+            "key": "LZ6N7UGW",
+            "title": "The legend of hero Pergamus",
+            "author_date": "Kosmetatou. 1995"
+          },
+          {
+            "key": "B3NFGAGI",
+            "title": "The voyage of Aeneas: myth, archaeology and identity in interwar Albania",
+            "author_date": "Gilkes. 2003"
+          },
+          {
+            "key": "KKFJI34S",
+            "title": "The Mesolithic of Konispol Cave, Albania",
+            "author_date": "Harrold, Russell, Wickens. 2016"
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -559,7 +661,19 @@
       "properties": {
         "name": "Malathrea",
         "altLabel": "Malathre, Amaltheion",
-        "broader": null
+        "broader": null,
+        "biblio": [
+          {
+            "key": "P9MIGHA5",
+            "title": "Gjurmim i mëtejshëm i fortesës së Malathresë",
+            "author_date": "Çondi. 1982"
+          },
+          {
+            "key": "VZB9YY6V",
+            "title": "Fortesa — vilë e Malathresë",
+            "author_date": "Çondi. 1984"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
