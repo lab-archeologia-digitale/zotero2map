@@ -40,24 +40,23 @@ function parseBiblio(biblio, voc) {
  * @param {Object} voc voci dell'ontologia
  */
 function mapItemByVoc(item, voc) {
-  const tags = item?.tags.length ? [...item.tags.map((obj) => obj.tag)] : [];
-  updateItemObjWithMatchFromVocProperties(item, voc, tags);
-  //updateItemObjWithCoordinatesFromVocSkosBroader(item, voc, tags);
+  const biblioItemTags = item?.tags.length ? [...item.tags.map((obj) => obj.tag)] : [];
+  updateItemObjWithMatchFromVocProperties(item, voc, biblioItemTags);
 }
 
 /**
  * Aggiorna gli item di Zotero in base alla risposta
  * crea la prop match se c'è corrispondenza con voc
- * @param {object} item item della risposta della libreria Zotero
+ * @param {object} item item bibliografico della risposta della libreria Zotero
  * @param {object} voc voci dell'ontologia
- * @param {Array.<string>} tags tags degli item di Zotero
+ * @param {Array.<string>} biblioItemTags tags degli item di Zotero
  * @returns {void}
  */
-function updateItemObjWithMatchFromVocProperties(item, voc, tags = []) {
-  if (!Array.isArray(tags)) throw new Error("is required tags array or string");
+function updateItemObjWithMatchFromVocProperties(item, voc, biblioItemTags = []) {
+  if (!Array.isArray(biblioItemTags)) throw new Error("is required tags array or string");
   const vocTags = Object.keys(voc);
   if (!item.match) item.match = [];
-  for (const tag of tags) {
+  for (const tag of biblioItemTags) {
     if (vocTags.includes(tag)) {
       // voc[tag]._id = tag;
       item.match.push(voc[tag]);
@@ -76,8 +75,11 @@ function mapBibliography(zoteroBiblioMappedWithVoc, ontology) {
   for (const zoteroItem of zoteroBiblioMappedWithVoc) {
     if (zoteroItem?.match.length) {
 
+      // Loop in `match` property of each Zotero item
       zoteroItem.match.forEach(m => {
+        // Loop each element of the ontlogy
         ontology.features.forEach(mapEl => {
+          // If the match element is the same of the ontology `name` property, add it to the result object
           if (mapEl.properties.name === m.name){
             if (!mapEl.properties.hasOwnProperty('biblio')){
               mapEl.properties.biblio = [];
