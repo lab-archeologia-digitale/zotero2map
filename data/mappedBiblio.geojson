@@ -483,6 +483,11 @@
         "broader": "Chaonia",
         "biblio": [
           {
+            "key": "ZF9G5IQY",
+            "title": "La circolazione delle monete a Phoinike",
+            "author_date": "Gjongecaj. 2007"
+          },
+          {
             "key": "WVJCNA29",
             "title": "Distruzione e reimpiego delle tombe: episodi militari, atti politici o pratica magica?",
             "author_date": "Lepore. 2020"
@@ -512,7 +517,14 @@
       "properties": {
         "name": "Gramata",
         "altLabel": "Grammata",
-        "broader": "Chaonia"
+        "broader": "Chaonia",
+        "biblio": [
+          {
+            "key": "NIDF3TAR",
+            "title": "Les inscriptions de Grammata (Albanie)",
+            "author_date": "Hajdari, Reboton, Shpuza, Cabanes. 2007"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
