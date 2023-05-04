@@ -1,5 +1,5 @@
 /**
- * 
+ *
  * @param {Array} features: Array of ontology (GeoJSON) featurtes
  * @returns {Object} Object containing (only) properties of each feature.
  *                   The name property is used as index
@@ -10,6 +10,8 @@ function returnVoc(features) {
   for (const item of features) {
     let nome = item.properties.name;
     ret[nome] = item.properties;
+    let altLabel = item.properties.altLabel;
+    ret[altLabel] = item.properties;
   }
   return ret;
 }
@@ -40,7 +42,9 @@ function parseBiblio(biblio, voc) {
  * @param {Object} voc voci dell'ontologia
  */
 function mapItemByVoc(item, voc) {
-  const biblioItemTags = item?.tags.length ? [...item.tags.map((obj) => obj.tag)] : [];
+  const biblioItemTags = item?.tags.length
+    ? [...item.tags.map((obj) => obj.tag)]
+    : [];
   updateItemObjWithMatchFromVocProperties(item, voc, biblioItemTags);
 }
 
@@ -52,8 +56,13 @@ function mapItemByVoc(item, voc) {
  * @param {Array.<string>} biblioItemTags tags degli item di Zotero
  * @returns {void}
  */
-function updateItemObjWithMatchFromVocProperties(item, voc, biblioItemTags = []) {
-  if (!Array.isArray(biblioItemTags)) throw new Error("is required tags array or string");
+function updateItemObjWithMatchFromVocProperties(
+  item,
+  voc,
+  biblioItemTags = []
+) {
+  if (!Array.isArray(biblioItemTags))
+    throw new Error("is required tags array or string");
   const vocTags = Object.keys(voc);
   if (!item.match) item.match = [];
   for (const tag of biblioItemTags) {
@@ -71,30 +80,34 @@ function updateItemObjWithMatchFromVocProperties(item, voc, biblioItemTags = [])
  * @returns {Array}: L'ontologia originale con, per ogni elemento, proprietà biblio, array con bibliografia
  */
 function mapBibliography(zoteroBiblioMappedWithVoc, ontology) {
-  
   for (const zoteroItem of zoteroBiblioMappedWithVoc) {
     if (zoteroItem?.match.length) {
-
       // Loop in `match` property of each Zotero item
-      zoteroItem.match.forEach(m => {
+      zoteroItem.match.forEach((m) => {
         // Loop each element of the ontlogy
-        ontology.features.forEach(mapEl => {
+        ontology.features.forEach((mapEl) => {
           // If the match element is the same of the ontology `name` property, add it to the result object
-          if (mapEl.properties.name === m.name){
-            if (!mapEl.properties.hasOwnProperty('biblio')){
+          if (mapEl.properties.name === m.name) {
+            if (!mapEl.properties.hasOwnProperty("biblio")) {
               mapEl.properties.biblio = [];
             }
             mapEl.properties.biblio.push({
               key: zoteroItem.key,
               title: zoteroItem.title,
-              author_date:zoteroItem.creators.map(e => {
-                if(e.creatorType === "author"){
-                  return e.lastName;
-                } else {
-                  return false;
-                }
-              }).filter(e => e).join(", ") + '. ' + zoteroItem.date
-            })
+              author_date:
+                zoteroItem.creators
+                  .map((e) => {
+                    if (e.creatorType === "author") {
+                      return e.lastName;
+                    } else {
+                      return false;
+                    }
+                  })
+                  .filter((e) => e)
+                  .join(", ") +
+                ". " +
+                zoteroItem.date,
+            });
           }
         });
       });
@@ -106,8 +119,10 @@ function mapBibliography(zoteroBiblioMappedWithVoc, ontology) {
 
 const mapBiblio2Onto = (bibliography, ontology) => {
   const voc = returnVoc(ontology.features);
-  
-  const zoteroBiblioMappedWithVoc = parseBiblio(bibliography, voc).filter(e => e.match.length > 0);
+
+  const zoteroBiblioMappedWithVoc = parseBiblio(bibliography, voc).filter(
+    (e) => e.match.length > 0
+  );
 
   return mapBibliography(zoteroBiblioMappedWithVoc, ontology);
 };
