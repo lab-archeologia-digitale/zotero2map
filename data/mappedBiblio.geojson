@@ -1,5 +1,6 @@
 {
   "type": "FeatureCollection",
+  "name": "map",
   "features": [
     {
       "type": "Feature",
@@ -8,6 +9,16 @@
         "altLabel": "Kaonia, Caonia",
         "broader": "Epirus",
         "biblio": [
+          {
+            "key": "WVJCNA29",
+            "title": "Distruzione e reimpiego delle tombe: episodi militari, atti politici o pratica magica?",
+            "author_date": "Lepore. 2020"
+          },
+          {
+            "key": "H6BPFGQB",
+            "title": "L'archeologia della morte in Illiria e in Epiro",
+            "author_date": "Lepore, Muka. 2020"
+          },
           {
             "key": "SLY7JPBE",
             "title": "Gjetje arkeologjike nga rrethi i Sarandës / Trouvailles archéologiques de la région de Saranda",
@@ -22,11 +33,6 @@
             "key": "B3NFGAGI",
             "title": "The voyage of Aeneas: myth, archaeology and identity in interwar Albania",
             "author_date": "Gilkes. 2003"
-          },
-          {
-            "key": "WVJCNA29",
-            "title": "Distruzione e reimpiego delle tombe: episodi militari, atti politici o pratica magica?",
-            "author_date": "Lepore. 2020"
           }
         ]
       },
@@ -187,11 +193,22 @@
     },
     {
       "type": "Feature",
+      "id": 2,
       "properties": {
         "name": "Çuka e Ajtoit",
         "altLabel": "Cestria, Monte Aetòs, Monte Aetos",
         "broader": "Cestrine",
         "biblio": [
+          {
+            "key": "3S8M3IIZ",
+            "title": "Butrint 7 beyond Butrint : Kalivo, Çuka e Aitoit, Diaporit and the Vrina Plain: surveys and excavations in the Pavllas river valley, Albania, 1928-2015",
+            "author_date": ". 2020"
+          },
+          {
+            "key": "5HYHG84B",
+            "title": "Çuka e Aitoit: The 1979 Survey and Excavations",
+            "author_date": "Islami. 2020"
+          },
           {
             "key": "RD6UGS84",
             "title": "Monte Aetos: Necropoli",
@@ -235,8 +252,7 @@
           20.12361921335895,
           39.681466609028035
         ]
-      },
-      "id": 2
+      }
     },
     {
       "type": "Feature",
@@ -399,6 +415,140 @@
               39.92789406669635
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Butrint",
+        "altLabel": "Butrinti, Butrinto, Bouthrotos, Butrint",
+        "broader": "Chaonia",
+        "biblio": [
+          {
+            "key": "LFF4BEV6",
+            "title": "The Trojan Connection: Butrint and Rome",
+            "author_date": "Hansen. 2007"
+          },
+          {
+            "key": "Z5NDA7RT",
+            "title": "Landscapes of water and landscapes of power: hydraulic politics in Butrint (Albania) between Venetians and Ottomans",
+            "author_date": "Carvajal López. 2019-05-04"
+          },
+          {
+            "key": "3S8M3IIZ",
+            "title": "Butrint 7 beyond Butrint : Kalivo, Çuka e Aitoit, Diaporit and the Vrina Plain: surveys and excavations in the Pavllas river valley, Albania, 1928-2015",
+            "author_date": ". 2020"
+          },
+          {
+            "key": "SF8MS2N8",
+            "title": "Another Greece. The population of northern Epirus and the genesis of Butrint in the Archaic period",
+            "author_date": "Giorgi. 2022"
+          },
+          {
+            "key": "Z35MV58J",
+            "title": "L'acropoli di Butrinto",
+            "author_date": "Ugolini. 1942"
+          },
+          {
+            "key": "N3EZBPZ9",
+            "title": "The environs of Butrint, Kalivo and Çuka e Aitoit, Albania",
+            "author_date": "Ugolini, Ugolini, Crowson, Hodges. 2004"
+          },
+          {
+            "key": "JEIP978R",
+            "title": "Butrint's Northen Frontier in the Eleventh Century? The Dema Wall",
+            "author_date": "Hodges. 2014/11"
+          },
+          {
+            "key": "ZJW4YMHV",
+            "title": "Enhanced interpretation of magnetic survey data using artificial neural networks: a case study from Butrint, southern Albania",
+            "author_date": "Bescoby, Cawley, Chroston. 2004-10-01"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.02119999130394,
+          39.74579925098032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phoinike",
+        "altLabel": "Foinike,  Fenice,  Phoenice,  Finiq, Finiqi",
+        "broader": "Chaonia",
+        "biblio": [
+          {
+            "key": "WVJCNA29",
+            "title": "Distruzione e reimpiego delle tombe: episodi militari, atti politici o pratica magica?",
+            "author_date": "Lepore. 2020"
+          },
+          {
+            "key": "H6BPFGQB",
+            "title": "L'archeologia della morte in Illiria e in Epiro",
+            "author_date": "Lepore, Muka. 2020"
+          },
+          {
+            "key": "NDNIJIGD",
+            "title": "L'acropoli di Fenice",
+            "author_date": "Ugolini. 1932"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.05848758388035,
+          39.91312679605562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gramata",
+        "altLabel": "Grammata",
+        "broader": "Chaonia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.473866599582735,
+          40.21609273307109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saranda",
+        "altLabel": "Onchesmos, Anchiasmos, Ankiasmi, Onhesmi, Santi Quaranta, Porto Edda",
+        "broader": "Chaonia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.00766838514449,
+          39.87500396376032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malathrea",
+        "altLabel": "Malathre, Amaltheion",
+        "broader": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.101685,
+          39.710401
         ]
       }
     }
