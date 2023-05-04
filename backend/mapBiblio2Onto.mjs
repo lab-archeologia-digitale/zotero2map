@@ -35,7 +35,6 @@ function parseBiblio(biblio, voc) {
  * Mappa gli item della bibliografia e confronta con l'ontologia
  * Funzioni da eseguire in ordine:
  * - Estrae i tag dagli item della biblio
- * - updateItemObjWithCoordinatesFromVocSkosBroader prova ad aggiungere le coordinate se il match è con broader
  * - updateItemObjWithMatchFromVocProperties se c'è corrispondenza con voc
  * @param {Object} item item della risposta della libreria Zotero
  * @param {Object} voc voci dell'ontologia
@@ -62,29 +61,6 @@ function updateItemObjWithMatchFromVocProperties(item, voc, tags = []) {
     if (vocTags.includes(tag)) {
       // voc[tag]._id = tag;
       item.match.push(voc[tag]);
-    }
-  }
-}
-
-/**
- * Aggiorna gli item di Zotero in base alla risposta
- * se c'è corrispondenza tra un tag e broader inserisce la proprietà geo
- * @param {object} item item della risposta della libreria Zotero
- * @param {object} voc voci dell'ontologia
- * @param {Array.<string>} tags tags degli item di Zotero
- * @deprecated since 2023-04-19
- */
-function updateItemObjWithCoordinatesFromVocSkosBroader(item, voc, tags) {
-  if (!Array.isArray(tags))
-    throw new Error("is required at not empty tags array og string");
-  const vocFlatItems = Object.values(voc);
-  if (!item.match.length) {
-    for (const tag of tags) {
-      for (const vocItem of vocFlatItems) {
-        if (vocItem.broader === tag) {
-          item.coords.push(vocItem.geo);
-        }
-      }
     }
   }
 }
