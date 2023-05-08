@@ -197,3 +197,21 @@ map.on("click", function (e) {
     // filterEl.parentNode.style.display = "block";
   }
 });
+
+// Funzione di ricerca su input
+const search = (event, objectData, setReturnedData) => {
+  event.preventDefault();
+  const input = event.target.value.toLowerCase();
+
+  //loop
+  const result = objectData.filter((data) => {
+    return Object.keys(data).some((key) => {
+      // condizioni
+      return JSON.stringify(data[key])
+        .toLocaleLowerCase()
+        .trim()
+        .includes(input);
+    });
+  });
+  setReturnedData(result);
+};
