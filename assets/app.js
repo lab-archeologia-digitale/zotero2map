@@ -42,6 +42,8 @@ map.on("load", function () {
     },
     filter: ["==", "$type", "Point"],
   });
+
+  // add search onLoad and set visible layer
 });
 
 // CREA NAVBAR
