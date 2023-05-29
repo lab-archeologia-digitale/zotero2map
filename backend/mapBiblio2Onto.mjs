@@ -94,6 +94,7 @@ function mapBibliography(zoteroBiblioMappedWithVoc, ontology) {
             mapEl.properties.biblio.push({
               key: zoteroItem.key,
               title: zoteroItem.title,
+              tag: zoteroItem.tags,
               author_date:
                 zoteroItem.creators
                   .map((e) => {
