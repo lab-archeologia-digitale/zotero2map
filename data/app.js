@@ -1,6 +1,6 @@
 //import bookData from "./mappedBiblio.geojson" assert { type: "json" };
 
-// MODIFICA PER FIREFOX CON XMLHttpRequest
+// MODIFICA PER FIREFOX CON XMLHttpRequestttt
 let bookData;
 
 // Crea una nuova richiesta XMLHttpRequest
@@ -186,8 +186,7 @@ map.on("load", function () {
                 isMatch = true;
                 break;
               }
-            }
-            if (Array.isArray(property)) {
+            } else if (Array.isArray(property)) {
               const propertiesLowerCase = property.map((prop) =>
                 typeof prop === "string" ? prop.toLowerCase() : prop
               );
