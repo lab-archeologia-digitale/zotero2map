@@ -10,18 +10,83 @@
         "broader": "Epirus",
         "biblio": [
           {
+            "key": "7IJWYJE4",
+            "title": "In the footsteps of Aeneas: Excavations at Butrint, Albania 1991-2",
+            "tag": [
+              "Butrint",
+              "Chaonia",
+              "Epirus",
+              "Greek Archaeology",
+              "Kestrine"
+            ],
+            "author_date": "Arafat, Morgan. 1995"
+          },
+          {
+            "key": "IF2EFS4K",
+            "title": "Çuka e Aitoit: një kontribut i ri",
+            "tag": [
+              "Cestrine",
+              "Chaonia",
+              "Epirus",
+              "Fortifications",
+              "Hellenistic Archaeology",
+              "Çuka e Ajtoit"
+            ],
+            "author_date": "Bogdani. 2009"
+          },
+          {
+            "key": "H63TIF8R",
+            "title": "Note su alcuni siti fortificati d'età ellenistica nella media valle del Pavla, Epiro",
+            "tag": [
+              "Cestrine",
+              "Chaonia",
+              "Epirus",
+              "Pavla valley"
+            ],
+            "author_date": "Bogdani. 2008"
+          },
+          {
+            "key": "ZG7X26DL",
+            "title": "Le fortificazioni di età ellenistica di Çuka e Aitoit (Epiro)",
+            "tag": [
+              "Cestrine",
+              "Chaonia",
+              "Epirus",
+              "Fortifications",
+              "Greek Archaeology",
+              "Hellenistic Archaeology",
+              "Çuka e Ajtoit"
+            ],
+            "author_date": "Bogdani. 2006"
+          },
+          {
+            "key": "23XF9AJM",
+            "title": "Note su Phoinike in età romana",
+            "tag": [
+              "Chaonia",
+              "Epirus",
+              "Phoinike",
+              "Roman archaeology"
+            ],
+            "author_date": "Bogdani. 2003"
+          },
+          {
+            "key": "JZLG9FMP",
+            "title": "5000 vjet fortifikime në Shqipëri",
+            "tag": [
+              "Chaonia",
+              "Epirus",
+              "Fortifications"
+            ],
+            "author_date": "Karaiskaj. 1980"
+          },
+          {
             "key": "P9MIGHA5",
             "title": "Gjurmim i mëtejshëm i fortesës së Malathresë",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Malathrea"
-              }
+              "Cestrine",
+              "Chaonia",
+              "Malathrea"
             ],
             "author_date": "Çondi. 1982"
           },
@@ -29,15 +94,9 @@
             "key": "VZB9YY6V",
             "title": "Fortesa — vilë e Malathresë",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Malathrea"
-              }
+              "Cestrine",
+              "Chaonia",
+              "Malathrea"
             ],
             "author_date": "Çondi. 1984"
           },
@@ -45,21 +104,11 @@
             "key": "WVJCNA29",
             "title": "Distruzione e reimpiego delle tombe: episodi militari, atti politici o pratica magica?",
             "tag": [
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Funerary archaeology"
-              },
-              {
-                "tag": "Phoinike"
-              },
-              {
-                "tag": "da-leggere"
-              }
+              "Chaonia",
+              "Epirus",
+              "Funerary archaeology",
+              "Phoinike",
+              "da-leggere"
             ],
             "author_date": "Lepore. 2020"
           },
@@ -67,18 +116,10 @@
             "key": "H6BPFGQB",
             "title": "L'archeologia della morte in Illiria e in Epiro",
             "tag": [
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Funerary archaeology"
-              },
-              {
-                "tag": "Phoinike"
-              }
+              "Chaonia",
+              "Epirus",
+              "Funerary archaeology",
+              "Phoinike"
             ],
             "author_date": "Lepore, Muka. 2020"
           },
@@ -86,15 +127,9 @@
             "key": "SLY7JPBE",
             "title": "Gjetje arkeologjike nga rrethi i Sarandës / Trouvailles archéologiques de la région de Saranda",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Epirus"
-              }
+              "Cestrine",
+              "Chaonia",
+              "Epirus"
             ],
             "author_date": "Çondi. 1977-1978"
           },
@@ -102,42 +137,68 @@
             "key": "DNH4ZNN5",
             "title": "ΚΕΣΤΡΙΑ ΤHΣ ΧΑΟΝIΑΣ: appunti sulla geografia e storia di una regione di frontiera",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Trojan cycle"
-              }
+              "Cestrine",
+              "Chaonia",
+              "Epirus",
+              "Trojan cycle"
             ],
             "author_date": "Bogdani. 2022"
+          },
+          {
+            "key": "78UKUFFC",
+            "title": "Il teatro di Phoinike",
+            "tag": [
+              "Chaonia",
+              "Epirus",
+              "Hellenistic Archaeology",
+              "Phoinike",
+              "Roman archaeology"
+            ],
+            "author_date": "Villicich. 2018"
+          },
+          {
+            "key": "RB4X233A",
+            "title": "Vendbanimi i bregut të Sterës Konispol",
+            "tag": [
+              "Cestrine",
+              "Chaonia",
+              "Epirus"
+            ],
+            "author_date": "Shabani. 1988"
+          },
+          {
+            "key": "WFXTXFT2",
+            "title": "Presaibët e periferisë",
+            "tag": [
+              "Cestrine",
+              "Chaonia",
+              "Epirus"
+            ],
+            "author_date": "Shabani. 2002"
           },
           {
             "key": "B3NFGAGI",
             "title": "The voyage of Aeneas: myth, archaeology and identity in interwar Albania",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Trojan cycle"
-              },
-              {
-                "tag": "identity"
-              }
+              "Cestrine",
+              "Chaonia",
+              "Epirus",
+              "Trojan cycle",
+              "identity"
             ],
             "author_date": "Gilkes. 2003"
+          },
+          {
+            "key": "JMBTX8IQ",
+            "title": "The Archaeological Sites of the Drino River Valley, Antigone",
+            "tag": [
+              "Antigonea",
+              "Chaonia",
+              "Drinos valley",
+              "Epirus",
+              "cercare"
+            ],
+            "author_date": "Sala. 2011"
           }
         ]
       },
@@ -225,18 +286,86 @@
         "broader": "Chaonia, Thesprotia",
         "biblio": [
           {
+            "key": "7IJWYJE4",
+            "title": "In the footsteps of Aeneas: Excavations at Butrint, Albania 1991-2",
+            "tag": [
+              "Butrint",
+              "Chaonia",
+              "Epirus",
+              "Greek Archaeology",
+              "Kestrine"
+            ],
+            "author_date": "Arafat, Morgan. 1995"
+          },
+          {
+            "key": "IF2EFS4K",
+            "title": "Çuka e Aitoit: një kontribut i ri",
+            "tag": [
+              "Cestrine",
+              "Chaonia",
+              "Epirus",
+              "Fortifications",
+              "Hellenistic Archaeology",
+              "Çuka e Ajtoit"
+            ],
+            "author_date": "Bogdani. 2009"
+          },
+          {
+            "key": "H63TIF8R",
+            "title": "Note su alcuni siti fortificati d'età ellenistica nella media valle del Pavla, Epiro",
+            "tag": [
+              "Cestrine",
+              "Chaonia",
+              "Epirus",
+              "Pavla valley"
+            ],
+            "author_date": "Bogdani. 2008"
+          },
+          {
+            "key": "ZG7X26DL",
+            "title": "Le fortificazioni di età ellenistica di Çuka e Aitoit (Epiro)",
+            "tag": [
+              "Cestrine",
+              "Chaonia",
+              "Epirus",
+              "Fortifications",
+              "Greek Archaeology",
+              "Hellenistic Archaeology",
+              "Çuka e Ajtoit"
+            ],
+            "author_date": "Bogdani. 2006"
+          },
+          {
+            "key": "QN3WYE4E",
+            "title": "The Muslim Chams of Northwestern Greece: The grounds for the expulsion of a “non-existent” minority community",
+            "tag": [
+              "Cham",
+              "Epirus",
+              "Kestrine"
+            ],
+            "author_date": "Baltsiotis. 2011-11-13"
+          },
+          {
+            "key": "Y4AHH5V4",
+            "title": "A Colossal Cult Statue Group from Dobër, Albania: Visual Narratives of East and West in the Countryside of Butrint",
+            "tag": [
+              "Butrint",
+              "Cestrine",
+              "Dobra",
+              "Fortifications",
+              "Temple",
+              "Trojan cycle",
+              "Vagalati"
+            ],
+            "author_date": "Melfi, Martens. 2020-10-01"
+          },
+          {
             "key": "P9MIGHA5",
             "title": "Gjurmim i mëtejshëm i fortesës së Malathresë",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Malathrea"
-              }
+              "Cestrine",
+              "Chaonia",
+              "Malathrea"
             ],
             "author_date": "Çondi. 1982"
           },
@@ -244,15 +373,9 @@
             "key": "VZB9YY6V",
             "title": "Fortesa — vilë e Malathresë",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Malathrea"
-              }
+              "Cestrine",
+              "Chaonia",
+              "Malathrea"
             ],
             "author_date": "Çondi. 1984"
           },
@@ -260,15 +383,9 @@
             "key": "MY5BXU6W",
             "title": "Documentare l'invisibile. Il progetto Çuka e Ajtoit: rilievo e documentazione di un sito d'altura",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Bogdani. c.d.s."
           },
@@ -276,21 +393,11 @@
             "key": "Z5NDA7RT",
             "title": "Landscapes of water and landscapes of power: hydraulic politics in Butrint (Albania) between Venetians and Ottomans",
             "tag": [
-              {
-                "tag": "Butrint"
-              },
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Ottoman archaeology"
-              },
-              {
-                "tag": "Venetian studies"
-              }
+              "Butrint",
+              "Cestrine",
+              "Epirus",
+              "Ottoman archaeology",
+              "Venetian studies"
             ],
             "author_date": "Carvajal López. 2019-05-04"
           },
@@ -298,15 +405,9 @@
             "key": "5HYHG84B",
             "title": "Çuka e Aitoit: The 1979 Survey and Excavations",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Islami. 2020"
           },
@@ -314,21 +415,11 @@
             "key": "RD6UGS84",
             "title": "Monte Aetos: Necropoli",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Material culture"
-              },
-              {
-                "tag": "Necropolis"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Material culture",
+              "Necropolis",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Ugolini. "
           },
@@ -336,24 +427,12 @@
             "key": "N3EZBPZ9",
             "title": "The environs of Butrint, Kalivo and Çuka e Aitoit, Albania",
             "tag": [
-              {
-                "tag": "Albania"
-              },
-              {
-                "tag": "Butrint"
-              },
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Kalivo"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Albania",
+              "Butrint",
+              "Cestrine",
+              "Epirus",
+              "Kalivo",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Ugolini, Ugolini, Crowson, Hodges. 2004"
           },
@@ -361,18 +440,10 @@
             "key": "T8XQ4GQP",
             "title": "I reperti da Monte Aetòs / The finds from Çuka e Aitoit",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Material culture"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Material culture",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Ugolini, Francis, Gilkes, Muka. 2005"
           },
@@ -380,21 +451,11 @@
             "key": "5XRY9MN2",
             "title": "Monte Aetòs (Çuka e Aitoit): Necropoli",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Material culture"
-              },
-              {
-                "tag": "Necropolis"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Material culture",
+              "Necropolis",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Ugolini. 2020"
           },
@@ -402,18 +463,10 @@
             "key": "QJAPZRRM",
             "title": "I reperti da Monte Aetòs - The finds from Çuka e Aitoit",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Material culture"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Material culture",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Ugolini, Francis, Gilkes, Hernandez, Muka. 2020"
           },
@@ -421,15 +474,9 @@
             "key": "SLY7JPBE",
             "title": "Gjetje arkeologjike nga rrethi i Sarandës / Trouvailles archéologiques de la région de Saranda",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Epirus"
-              }
+              "Cestrine",
+              "Chaonia",
+              "Epirus"
             ],
             "author_date": "Çondi. 1977-1978"
           },
@@ -437,15 +484,9 @@
             "key": "DJ8XIRUS",
             "title": "Kërkime të reja Shqiptaro-Italiane në Çukën e Ajtoit",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Bogdani, Meta. c.d.s."
           },
@@ -453,15 +494,9 @@
             "key": "2NVIP5FB",
             "title": "Gjetje rasti: rrethi i Sarandës",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Budina. 1974"
           },
@@ -469,31 +504,49 @@
             "key": "DNH4ZNN5",
             "title": "ΚΕΣΤΡΙΑ ΤHΣ ΧΑΟΝIΑΣ: appunti sulla geografia e storia di una regione di frontiera",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Trojan cycle"
-              }
+              "Cestrine",
+              "Chaonia",
+              "Epirus",
+              "Trojan cycle"
             ],
             "author_date": "Bogdani. 2022"
+          },
+          {
+            "key": "EULRA2QA",
+            "title": "Njoftime arkeologjike nga zona e Konispolit (ndihmese për hartën arkeologjike të vendit)",
+            "tag": [
+              "Caonia",
+              "Cestrine",
+              "Epirus"
+            ],
+            "author_date": "Shabani. 1983"
+          },
+          {
+            "key": "RB4X233A",
+            "title": "Vendbanimi i bregut të Sterës Konispol",
+            "tag": [
+              "Cestrine",
+              "Chaonia",
+              "Epirus"
+            ],
+            "author_date": "Shabani. 1988"
+          },
+          {
+            "key": "WFXTXFT2",
+            "title": "Presaibët e periferisë",
+            "tag": [
+              "Cestrine",
+              "Chaonia",
+              "Epirus"
+            ],
+            "author_date": "Shabani. 2002"
           },
           {
             "key": "USJUUA2J",
             "title": "A propos des Kammanoi",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              }
+              "Cestrine",
+              "Epirus"
             ],
             "author_date": "Cabanes. 1987"
           },
@@ -501,18 +554,10 @@
             "key": "LZ6N7UGW",
             "title": "The legend of hero Pergamus",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Pergamus"
-              },
-              {
-                "tag": "Trojan cycle"
-              }
+              "Cestrine",
+              "Epirus",
+              "Pergamus",
+              "Trojan cycle"
             ],
             "author_date": "Kosmetatou. 1995"
           },
@@ -520,21 +565,11 @@
             "key": "B3NFGAGI",
             "title": "The voyage of Aeneas: myth, archaeology and identity in interwar Albania",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Trojan cycle"
-              },
-              {
-                "tag": "identity"
-              }
+              "Cestrine",
+              "Chaonia",
+              "Epirus",
+              "Trojan cycle",
+              "identity"
             ],
             "author_date": "Gilkes. 2003"
           },
@@ -542,18 +577,10 @@
             "key": "KKFJI34S",
             "title": "The Mesolithic of Konispol Cave, Albania",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Konispoli"
-              },
-              {
-                "tag": "Prehistory"
-              }
+              "Cestrine",
+              "Epirus",
+              "Konispoli",
+              "Prehistory"
             ],
             "author_date": "Harrold, Russell, Wickens. 2016"
           }
@@ -640,62 +667,105 @@
         "broader": "Cestrine",
         "biblio": [
           {
+            "key": "3S8M3IIZ",
+            "title": "Butrint 7 Beyond Butrint : Kalivo, Çuka e Aitoit, Diaporit and the Vrina Plain: surveys and excavations in the Pavllas river valley, Albania, 1928-2015",
+            "tag": [
+              "Butrint",
+              "Diaporit",
+              "Epirus",
+              "Kalivo",
+              "Mursi",
+              "Vrina",
+              "Çuka e Ajtoit"
+            ],
+            "author_date": ". 2020"
+          },
+          {
+            "key": "W7ANUY92",
+            "title": "Beyond Butrint: Domination, Territory, Environment and the Corrupting Sea",
+            "tag": [
+              "Butrint",
+              "Diaporit",
+              "Epirus",
+              "Kalivo",
+              "Mursi",
+              "Vrina",
+              "Çuka e Ajtoit"
+            ],
+            "author_date": "Hernandez, Hodges. 2020"
+          },
+          {
+            "key": "YI9IXQBF",
+            "title": "The perimeter walls of Kalivo: Electronic survey, 2001",
+            "tag": [
+              "Butrint",
+              "Diaporit",
+              "Epirus",
+              "Kalivo",
+              "Mursi",
+              "Vrina",
+              "Çuka e Ajtoit"
+            ],
+            "author_date": "Crowson. 2020"
+          },
+          {
+            "key": "M2P79YBM",
+            "title": "Excavations at Kalivo, 2004",
+            "tag": [
+              "Butrint",
+              "Diaporit",
+              "Epirus",
+              "Kalivo",
+              "Mursi",
+              "Vrina",
+              "Çuka e Ajtoit"
+            ],
+            "author_date": "Crowson. 2020"
+          },
+          {
+            "key": "IF2EFS4K",
+            "title": "Çuka e Aitoit: një kontribut i ri",
+            "tag": [
+              "Cestrine",
+              "Chaonia",
+              "Epirus",
+              "Fortifications",
+              "Hellenistic Archaeology",
+              "Çuka e Ajtoit"
+            ],
+            "author_date": "Bogdani. 2009"
+          },
+          {
+            "key": "ZG7X26DL",
+            "title": "Le fortificazioni di età ellenistica di Çuka e Aitoit (Epiro)",
+            "tag": [
+              "Cestrine",
+              "Chaonia",
+              "Epirus",
+              "Fortifications",
+              "Greek Archaeology",
+              "Hellenistic Archaeology",
+              "Çuka e Ajtoit"
+            ],
+            "author_date": "Bogdani. 2006"
+          },
+          {
             "key": "MY5BXU6W",
             "title": "Documentare l'invisibile. Il progetto Çuka e Ajtoit: rilievo e documentazione di un sito d'altura",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Bogdani. c.d.s."
-          },
-          {
-            "key": "3S8M3IIZ",
-            "title": "Butrint 7 beyond Butrint : Kalivo, Çuka e Aitoit, Diaporit and the Vrina Plain: surveys and excavations in the Pavllas river valley, Albania, 1928-2015",
-            "tag": [
-              {
-                "tag": "Butrint"
-              },
-              {
-                "tag": "Diaporit"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Kalivo"
-              },
-              {
-                "tag": "Mursi"
-              },
-              {
-                "tag": "Vrina"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
-            ],
-            "author_date": ". 2020"
           },
           {
             "key": "5HYHG84B",
             "title": "Çuka e Aitoit: The 1979 Survey and Excavations",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Islami. 2020"
           },
@@ -703,21 +773,11 @@
             "key": "RD6UGS84",
             "title": "Monte Aetos: Necropoli",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Material culture"
-              },
-              {
-                "tag": "Necropolis"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Material culture",
+              "Necropolis",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Ugolini. "
           },
@@ -725,24 +785,12 @@
             "key": "N3EZBPZ9",
             "title": "The environs of Butrint, Kalivo and Çuka e Aitoit, Albania",
             "tag": [
-              {
-                "tag": "Albania"
-              },
-              {
-                "tag": "Butrint"
-              },
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Kalivo"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Albania",
+              "Butrint",
+              "Cestrine",
+              "Epirus",
+              "Kalivo",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Ugolini, Ugolini, Crowson, Hodges. 2004"
           },
@@ -750,18 +798,10 @@
             "key": "T8XQ4GQP",
             "title": "I reperti da Monte Aetòs / The finds from Çuka e Aitoit",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Material culture"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Material culture",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Ugolini, Francis, Gilkes, Muka. 2005"
           },
@@ -769,21 +809,11 @@
             "key": "5XRY9MN2",
             "title": "Monte Aetòs (Çuka e Aitoit): Necropoli",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Material culture"
-              },
-              {
-                "tag": "Necropolis"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Material culture",
+              "Necropolis",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Ugolini. 2020"
           },
@@ -791,18 +821,10 @@
             "key": "QJAPZRRM",
             "title": "I reperti da Monte Aetòs - The finds from Çuka e Aitoit",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Material culture"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Material culture",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Ugolini, Francis, Gilkes, Hernandez, Muka. 2020"
           },
@@ -810,15 +832,9 @@
             "key": "DJ8XIRUS",
             "title": "Kërkime të reja Shqiptaro-Italiane në Çukën e Ajtoit",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Bogdani, Meta. c.d.s."
           },
@@ -826,15 +842,9 @@
             "key": "2NVIP5FB",
             "title": "Gjetje rasti: rrethi i Sarandës",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Cestrine",
+              "Epirus",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Budina. 1974"
           }
@@ -856,24 +866,47 @@
         "broader": "Epirus",
         "biblio": [
           {
+            "key": "NR2JT2VA",
+            "title": "The Nicopolitan Synoecism and Roman Urban Policy",
+            "tag": [
+              "Epirus",
+              "Nicopolis",
+              "Roman archaeology",
+              "Thesprotia"
+            ],
+            "author_date": "Purcell. 1987"
+          },
+          {
+            "key": "LL24QBL6",
+            "title": "Colonia Actia Nicopolis Überlegungen anläßlich der Neuedition von CIL III 7334 in CIPh I 1, 78",
+            "tag": [
+              "Epirus",
+              "Nicopolis",
+              "Roman archaeology",
+              "Thesprotia"
+            ],
+            "author_date": "Daubner. 2018"
+          },
+          {
+            "key": "7VCQBBP9",
+            "title": "Nicopolitan tombstones and altars across the Roman Empire and the search for an elusive colony",
+            "tag": [
+              "Epirus",
+              "Nicopolis",
+              "Roman archaeology",
+              "Thesprotia"
+            ],
+            "author_date": "Antoniadis. 2020"
+          },
+          {
             "key": "9RWVIRSW",
             "title": "Hellenistische Katapulte aus Ephyra (Epirus)",
             "tag": [
-              {
-                "tag": "Catapults"
-              },
-              {
-                "tag": "Ephyra"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Nekyomanteion"
-              },
-              {
-                "tag": "Thesprotia"
-              }
+              "Catapults",
+              "Ephyra",
+              "Epirus",
+              "Nekyomanteion",
+              "Thesprotia"
             ],
             "author_date": "Baatz. 1982"
           },
@@ -881,43 +914,16 @@
             "key": "EAZXV4CC",
             "title": "Totenorakel in der griechischen Antike",
             "tag": [
-              {
-                "tag": "Acheron",
-                "type": 1
-              },
-              {
-                "tag": "Ephyra",
-                "type": 1
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Herakleia Pontike",
-                "type": 1
-              },
-              {
-                "tag": "Lacus Avernus",
-                "type": 1
-              },
-              {
-                "tag": "Mannheim 2000",
-                "type": 1
-              },
-              {
-                "tag": "Mantik, Orakelwesen, Prophetie",
-                "type": 1
-              },
-              {
-                "tag": "Nekyomanteion"
-              },
-              {
-                "tag": "Tainaron",
-                "type": 1
-              },
-              {
-                "tag": "Thesprotia"
-              }
+              "Acheron",
+              "Ephyra",
+              "Epirus",
+              "Herakleia Pontike",
+              "Lacus Avernus",
+              "Mannheim 2000",
+              "Mantik, Orakelwesen, Prophetie",
+              "Nekyomanteion",
+              "Tainaron",
+              "Thesprotia"
             ],
             "author_date": "Ogden. 2001"
           },
@@ -925,18 +931,10 @@
             "key": "97LEF7PG",
             "title": "Greek and Roman necromancy",
             "tag": [
-              {
-                "tag": "Acheron"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Nekyomanteion"
-              },
-              {
-                "tag": "Thesprotia"
-              }
+              "Acheron",
+              "Epirus",
+              "Nekyomanteion",
+              "Thesprotia"
             ],
             "author_date": "Ogden. 2001"
           },
@@ -944,18 +942,10 @@
             "key": "WACYUA5Q",
             "title": "Thesprotia during the late Classic and Hellenistic periods. The formation and evolution of the cities K. Lazari, E. Kanta-Kitsou",
             "tag": [
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Thesprotia"
-              },
-              {
-                "tag": "cercare"
-              },
-              {
-                "tag": "da-leggere"
-              }
+              "Epirus",
+              "Thesprotia",
+              "cercare",
+              "da-leggere"
             ],
             "author_date": "Lazari, Kanta-Kitsou. 2010"
           },
@@ -963,20 +953,23 @@
             "key": "SI837ECT",
             "title": "The Walled Towns of Thesprotia: from the Hellenistic Foundation to the Roman Destruction",
             "tag": [
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Fortifications"
-              },
-              {
-                "tag": "Thesprotia"
-              },
-              {
-                "tag": "da-leggere"
-              }
+              "Epirus",
+              "Fortifications",
+              "Thesprotia",
+              "da-leggere"
             ],
             "author_date": "Moderato. 2015"
+          },
+          {
+            "key": "C5PX5RNZ",
+            "title": "The walls of Elea: some thoughts concerning their typology and date",
+            "tag": [
+              "Elea",
+              "Epirus",
+              "Fortifications",
+              "Thesprotia"
+            ],
+            "author_date": "Suha. 2016"
           }
         ]
       },
@@ -1047,18 +1040,10 @@
             "key": "JYZR7SEQ",
             "title": "L’Epiro dei Molossi. Difesa e gestione del territorio",
             "tag": [
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Fortifications"
-              },
-              {
-                "tag": "Molossia"
-              },
-              {
-                "tag": "da-leggere"
-              }
+              "Epirus",
+              "Fortifications",
+              "Molossia",
+              "da-leggere"
             ],
             "author_date": "Gerogiannis. 2021"
           }
@@ -1132,30 +1117,107 @@
         "broader": "Chaonia",
         "biblio": [
           {
+            "key": "3S8M3IIZ",
+            "title": "Butrint 7 Beyond Butrint : Kalivo, Çuka e Aitoit, Diaporit and the Vrina Plain: surveys and excavations in the Pavllas river valley, Albania, 1928-2015",
+            "tag": [
+              "Butrint",
+              "Diaporit",
+              "Epirus",
+              "Kalivo",
+              "Mursi",
+              "Vrina",
+              "Çuka e Ajtoit"
+            ],
+            "author_date": ". 2020"
+          },
+          {
+            "key": "W7ANUY92",
+            "title": "Beyond Butrint: Domination, Territory, Environment and the Corrupting Sea",
+            "tag": [
+              "Butrint",
+              "Diaporit",
+              "Epirus",
+              "Kalivo",
+              "Mursi",
+              "Vrina",
+              "Çuka e Ajtoit"
+            ],
+            "author_date": "Hernandez, Hodges. 2020"
+          },
+          {
+            "key": "YI9IXQBF",
+            "title": "The perimeter walls of Kalivo: Electronic survey, 2001",
+            "tag": [
+              "Butrint",
+              "Diaporit",
+              "Epirus",
+              "Kalivo",
+              "Mursi",
+              "Vrina",
+              "Çuka e Ajtoit"
+            ],
+            "author_date": "Crowson. 2020"
+          },
+          {
+            "key": "M2P79YBM",
+            "title": "Excavations at Kalivo, 2004",
+            "tag": [
+              "Butrint",
+              "Diaporit",
+              "Epirus",
+              "Kalivo",
+              "Mursi",
+              "Vrina",
+              "Çuka e Ajtoit"
+            ],
+            "author_date": "Crowson. 2020"
+          },
+          {
+            "key": "HQXZ2NKJ",
+            "title": "La ripresa degli scavi sull’acropoli di Butrinto. Considerazioni preliminari sullo scavo delle mura arcaiche",
+            "tag": [
+              "Butrint",
+              "Epirus",
+              "Fortifications"
+            ],
+            "author_date": "Aleotti, Carbotti, D'Ambola, Kaca. 2023"
+          },
+          {
+            "key": "7IJWYJE4",
+            "title": "In the footsteps of Aeneas: Excavations at Butrint, Albania 1991-2",
+            "tag": [
+              "Butrint",
+              "Chaonia",
+              "Epirus",
+              "Greek Archaeology",
+              "Kestrine"
+            ],
+            "author_date": "Arafat, Morgan. 1995"
+          },
+          {
+            "key": "Y4AHH5V4",
+            "title": "A Colossal Cult Statue Group from Dobër, Albania: Visual Narratives of East and West in the Countryside of Butrint",
+            "tag": [
+              "Butrint",
+              "Cestrine",
+              "Dobra",
+              "Fortifications",
+              "Temple",
+              "Trojan cycle",
+              "Vagalati"
+            ],
+            "author_date": "Melfi, Martens. 2020-10-01"
+          },
+          {
             "key": "LFF4BEV6",
             "title": "The Trojan Connection: Butrint and Rome",
             "tag": [
-              {
-                "tag": "Antiquities, Roman",
-                "type": 1
-              },
-              {
-                "tag": "Bouthrotos"
-              },
-              {
-                "tag": "Butrint"
-              },
-              {
-                "tag": "Excavations (Archaeology)",
-                "type": 1
-              },
-              {
-                "tag": "Romans",
-                "type": 1
-              },
-              {
-                "tag": "Trojan cycle"
-              }
+              "Antiquities, Roman",
+              "Bouthrotos",
+              "Butrint",
+              "Excavations (Archaeology)",
+              "Romans",
+              "Trojan cycle"
             ],
             "author_date": "Hansen. 2007"
           },
@@ -1163,68 +1225,22 @@
             "key": "Z5NDA7RT",
             "title": "Landscapes of water and landscapes of power: hydraulic politics in Butrint (Albania) between Venetians and Ottomans",
             "tag": [
-              {
-                "tag": "Butrint"
-              },
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Ottoman archaeology"
-              },
-              {
-                "tag": "Venetian studies"
-              }
+              "Butrint",
+              "Cestrine",
+              "Epirus",
+              "Ottoman archaeology",
+              "Venetian studies"
             ],
             "author_date": "Carvajal López. 2019-05-04"
-          },
-          {
-            "key": "3S8M3IIZ",
-            "title": "Butrint 7 beyond Butrint : Kalivo, Çuka e Aitoit, Diaporit and the Vrina Plain: surveys and excavations in the Pavllas river valley, Albania, 1928-2015",
-            "tag": [
-              {
-                "tag": "Butrint"
-              },
-              {
-                "tag": "Diaporit"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Kalivo"
-              },
-              {
-                "tag": "Mursi"
-              },
-              {
-                "tag": "Vrina"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
-            ],
-            "author_date": ". 2020"
           },
           {
             "key": "SF8MS2N8",
             "title": "Another Greece. The population of northern Epirus and the genesis of Butrint in the Archaic period",
             "tag": [
-              {
-                "tag": "Archaic period"
-              },
-              {
-                "tag": "Butrint"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Kerkyra"
-              }
+              "Archaic period",
+              "Butrint",
+              "Epirus",
+              "Kerkyra"
             ],
             "author_date": "Giorgi. 2022"
           },
@@ -1232,12 +1248,8 @@
             "key": "Z35MV58J",
             "title": "L'acropoli di Butrinto",
             "tag": [
-              {
-                "tag": "Butrint"
-              },
-              {
-                "tag": "Epirus"
-              }
+              "Butrint",
+              "Epirus"
             ],
             "author_date": "Ugolini. 1942"
           },
@@ -1245,24 +1257,12 @@
             "key": "N3EZBPZ9",
             "title": "The environs of Butrint, Kalivo and Çuka e Aitoit, Albania",
             "tag": [
-              {
-                "tag": "Albania"
-              },
-              {
-                "tag": "Butrint"
-              },
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Kalivo"
-              },
-              {
-                "tag": "Çuka e Ajtoit"
-              }
+              "Albania",
+              "Butrint",
+              "Cestrine",
+              "Epirus",
+              "Kalivo",
+              "Çuka e Ajtoit"
             ],
             "author_date": "Ugolini, Ugolini, Crowson, Hodges. 2004"
           },
@@ -1270,12 +1270,8 @@
             "key": "JEIP978R",
             "title": "Butrint's Northen Frontier in the Eleventh Century? The Dema Wall",
             "tag": [
-              {
-                "tag": "Butrint"
-              },
-              {
-                "tag": "Dema"
-              }
+              "Butrint",
+              "Dema"
             ],
             "author_date": "Hodges. 2014/11"
           },
@@ -1283,27 +1279,13 @@
             "key": "ZJW4YMHV",
             "title": "Enhanced interpretation of magnetic survey data using artificial neural networks: a case study from Butrint, southern Albania",
             "tag": [
-              {
-                "tag": "Albania"
-              },
-              {
-                "tag": "Butrint"
-              },
-              {
-                "tag": "artificial neural network"
-              },
-              {
-                "tag": "depth estimation"
-              },
-              {
-                "tag": "magnetic prospection"
-              },
-              {
-                "tag": "multilayer perceptron"
-              },
-              {
-                "tag": "three‐dimensional modelling"
-              }
+              "Albania",
+              "Butrint",
+              "artificial neural network",
+              "depth estimation",
+              "magnetic prospection",
+              "multilayer perceptron",
+              "three‐dimensional modelling"
             ],
             "author_date": "Bescoby, Cawley, Chroston. 2004-10-01"
           }
@@ -1325,15 +1307,22 @@
         "broader": "Chaonia",
         "biblio": [
           {
+            "key": "23XF9AJM",
+            "title": "Note su Phoinike in età romana",
+            "tag": [
+              "Chaonia",
+              "Epirus",
+              "Phoinike",
+              "Roman archaeology"
+            ],
+            "author_date": "Bogdani. 2003"
+          },
+          {
             "key": "ZF9G5IQY",
             "title": "La circolazione delle monete a Phoinike",
             "tag": [
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Phoinike"
-              }
+              "Epirus",
+              "Phoinike"
             ],
             "author_date": "Gjongecaj. 2007"
           },
@@ -1341,21 +1330,11 @@
             "key": "WVJCNA29",
             "title": "Distruzione e reimpiego delle tombe: episodi militari, atti politici o pratica magica?",
             "tag": [
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Funerary archaeology"
-              },
-              {
-                "tag": "Phoinike"
-              },
-              {
-                "tag": "da-leggere"
-              }
+              "Chaonia",
+              "Epirus",
+              "Funerary archaeology",
+              "Phoinike",
+              "da-leggere"
             ],
             "author_date": "Lepore. 2020"
           },
@@ -1363,18 +1342,10 @@
             "key": "H6BPFGQB",
             "title": "L'archeologia della morte in Illiria e in Epiro",
             "tag": [
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Funerary archaeology"
-              },
-              {
-                "tag": "Phoinike"
-              }
+              "Chaonia",
+              "Epirus",
+              "Funerary archaeology",
+              "Phoinike"
             ],
             "author_date": "Lepore, Muka. 2020"
           },
@@ -1382,14 +1353,22 @@
             "key": "NDNIJIGD",
             "title": "L'acropoli di Fenice",
             "tag": [
-              {
-                "tag": "Epirus"
-              },
-              {
-                "tag": "Phoinike"
-              }
+              "Epirus",
+              "Phoinike"
             ],
             "author_date": "Ugolini. 1932"
+          },
+          {
+            "key": "78UKUFFC",
+            "title": "Il teatro di Phoinike",
+            "tag": [
+              "Chaonia",
+              "Epirus",
+              "Hellenistic Archaeology",
+              "Phoinike",
+              "Roman archaeology"
+            ],
+            "author_date": "Villicich. 2018"
           }
         ]
       },
@@ -1412,9 +1391,7 @@
             "key": "NIDF3TAR",
             "title": "Les inscriptions de Grammata (Albanie)",
             "tag": [
-              {
-                "tag": "Grammata"
-              }
+              "Grammata"
             ],
             "author_date": "Hajdari, Reboton, Shpuza, Cabanes. 2007"
           }
@@ -1454,15 +1431,9 @@
             "key": "P9MIGHA5",
             "title": "Gjurmim i mëtejshëm i fortesës së Malathresë",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Malathrea"
-              }
+              "Cestrine",
+              "Chaonia",
+              "Malathrea"
             ],
             "author_date": "Çondi. 1982"
           },
@@ -1470,15 +1441,9 @@
             "key": "VZB9YY6V",
             "title": "Fortesa — vilë e Malathresë",
             "tag": [
-              {
-                "tag": "Cestrine"
-              },
-              {
-                "tag": "Chaonia"
-              },
-              {
-                "tag": "Malathrea"
-              }
+              "Cestrine",
+              "Chaonia",
+              "Malathrea"
             ],
             "author_date": "Çondi. 1984"
           }
