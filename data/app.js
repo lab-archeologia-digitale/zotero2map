@@ -28,30 +28,25 @@ var map = new maplibregl.Map({
 // CONTROLLER
 map.addControl(new maplibregl.NavigationControl(), "bottom-right");
 
-//AGGIUNGO DATI
-
-// const dataUrl = "./data/mappedBiblio.geojson";
-
 // CREA ELEMENTO POPUP
 const popup = new maplibregl.Popup({
   closeButton: false,
 });
 
-// const filterEl = document.getElementById("feature-filter");
+// LISTA ELEMENTI
 const listingEl = document.getElementById("feature-listing");
 
 // FILTRI
 const layerIDs = []; // Will contain a list used to filter against.
 const filterInput = document.getElementById("filter-input");
 
+// SEZIONE AGGIUNGI LAYER
 map.on("load", function () {
   map.addSource("Zoterobook", {
     type: "geojson",
     // Use a URL for the value for the `data` property.
     data: bookData,
   });
-
-  // SEZIONE AGGIUNGI LAYER
 
   // Funzione per pulire il nome del layer
   function cleanLayerName(name) {
