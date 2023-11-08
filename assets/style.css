@@ -150,7 +150,7 @@ h1 {
   background: #3074a4;
 }
 
-#autocomplete {
+#filter-input {
   z-index: 900;
   position: absolute;
   top: 20px;
