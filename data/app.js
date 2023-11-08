@@ -1,4 +1,22 @@
-import bookData from "./mappedBiblio.geojson" assert { type: "json" };
+//import bookData from "./mappedBiblio.geojson" assert { type: "json" };
+
+// MODIFICA PER FIREFOX CON XMLHttpRequest
+let bookData;
+
+// Crea una nuova richiesta XMLHttpRequest
+const xhr = new XMLHttpRequest();
+xhr.open("GET", "data/mappedBiblio.geojson", true);
+
+xhr.onreadystatechange = function () {
+  if (xhr.readyState === 4 && xhr.status === 200) {
+    // ASSEGNA ALLA VARIABILE IL CONTENUTO DEL JSON
+    bookData = JSON.parse(xhr.responseText);
+  }
+};
+
+xhr.send();
+
+// INIZIO CONFIGURAZIONE MAPPA
 
 var map = new maplibregl.Map({
   container: "map",
